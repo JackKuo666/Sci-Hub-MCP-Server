@@ -1,0 +1,28 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties:
+      host:
+        type: string
+        default: 0.0.0.0
+        description: The host address to bind the server to.
+      port:
+        type: number
+        default: 8000
+        description: The port on which to run the server.
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => { 
+      // The Sci-Hub MCP server does not utilize the config directly.
+      // However, if needed, one could pass host and port as arguments or env vars.
+      // For now, simply return command to start the server using python
+      return { command: 'python', args: ['sci_hub_server.py'], env: { HOST: config.host, PORT: String(config.port) } };
+    }
+  exampleConfig:
+    host: 0.0.0.0
+    port: 8000

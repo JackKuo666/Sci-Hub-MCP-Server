@@ -1,4 +1,5 @@
 # Sci-Hub MCP Server
+[![smithery badge](https://smithery.ai/badge/@JackKuo666/sci-hub-mcp-server)](https://smithery.ai/server/@JackKuo666/sci-hub-mcp-server)
 
 [![smithery badge](https://smithery.ai/badge/@JackKuo666/sci-hub-mcp-server)](https://smithery.ai/server/@JackKuo666/sci-hub-mcp-server)
 
@@ -20,6 +21,14 @@ The Sci-Hub MCP Server provides a bridge between AI assistants and Sci-Hub's rep
 
 - Python 3.10+
 - FastMCP library
+
+### Installing via Smithery
+
+To install sci-hub-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@JackKuo666/sci-hub-mcp-server):
+
+```bash
+npx -y @smithery/cli install @JackKuo666/sci-hub-mcp-server --client claude
+```
 
 ### Installation
 
