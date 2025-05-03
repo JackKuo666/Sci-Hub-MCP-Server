@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jackkuo666-sci-hub-mcp-server-badge.png)](https://mseep.ai/app/jackkuo666-sci-hub-mcp-server)
+
 # Sci-Hub MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@JackKuo666/sci-hub-mcp-server)](https://smithery.ai/server/@JackKuo666/sci-hub-mcp-server)
